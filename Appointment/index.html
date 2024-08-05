@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navigation">
+      <a href="../index.html"> <img src="../logo.png" class="logo" /></a>
+      <textarea class="search" placeholder="Doctors"></textarea>
+      <img src="../search.png" class="searchIcon hidden" />
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <h1>SKCET Hospital</h1>
+        <p>Making healthcare easy and accessible</p>
+      </div>
+      <form>
+        <fieldset>
+          <legend><i class="fas fa-user"></i> Patient Information</legend>
+          <label for="name"><i class="fas fa-user"></i> Full Name:</label>
+          <input type="text" class="name" name="name" required />
+
+          <label for="dob"
+            ><i class="fas fa-calendar-alt"></i> Date of Birth:</label
+          >
+          <input type="date" id="dob" name="dob" required />
+
+          <label for="gender"><i class="fas fa-venus-mars"></i> Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="contact"
+            ><i class="fas fa-phone"></i> Contact Number:</label
+          >
+          <input
+            type="tel"
+            class="contact"
+            id="contact"
+            name="contact"
+            required
+          />
+
+          <label for="email"
+            ><i class="fas fa-envelope"></i> Email Address:</label
+          >
+          <input type="email" id="email" name="email" required />
+
+          <label for="address"
+            ><i class="fas fa-map-marker-alt"></i> Address:</label
+          >
+          <textarea id="address" name="address" required></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            <i class="fas fa-calendar-check"></i> Appointment Details
+          </legend>
+          <label for="doctor"
+            ><i class="fas fa-user-md"></i> Preferred Doctor:</label
+          >
+          <input type="text" id="doctor" name="doctor" required />
+
+          <label for="reason"
+            ><i class="fas fa-notes-medical"></i> Reason for Appointment:</label
+          >
+          <textarea id="reason" name="reason" required></textarea>
+
+          <label for="date"
+            ><i class="fas fa-calendar-day"></i> Preferred Date:</label
+          >
+          <input type="date" id="date" name="date" required />
+
+          <label for="time"><i class="fas fa-clock"></i> Preferred Time:</label>
+          <input type="time" id="time" name="time" required />
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            <i class="fas fa-file-medical"></i> Insurance Information (if
+            applicable)
+          </legend>
+          <label for="insurance"
+            ><i class="fas fa-shield-alt"></i> Insurance Provider:</label
+          >
+          <input type="text" id="insurance" name="insurance" />
+
+          <label for="policy"
+            ><i class="fas fa-file-medical-alt"></i> Policy Number:</label
+          >
+          <input type="text" id="policy" name="policy" />
+        </fieldset>
+
+        <button type="submit" onclick="sumbits()">
+          <i class="fas fa-paper-plane"></i> Submit
+        </button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

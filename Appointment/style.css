@@ -1,0 +1,150 @@
+.navigation {
+  background-image: linear-gradient(#93a5cf, #e4efe9);
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.search {
+  width: 200px;
+  border-radius: 20px;
+  margin-left: 35%;
+  margin-bottom: 0.5%;
+  border-color: 1px solid gray;
+  transition: 1s;
+  font-size: 15px;
+}
+.search:hover {
+  width: 400px;
+  transform: translateX(-100px);
+}
+
+.search:active {
+  width: 400px;
+  transform: translateX(-100px);
+  border-color: 1px solid focus;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+::placeholder {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+.searchIcon {
+  margin: 0;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 2%;
+  left: 65%;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e8f5e9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: #00796b;
+  margin: 0;
+}
+
+.header p {
+  color: #004d40;
+  font-style: italic;
+}
+
+form fieldset {
+  border: 1px solid #b2dfdb;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form legend {
+  font-weight: bold;
+  color: #004d40;
+  padding: 0 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #00796b;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="tel"],
+form input[type="email"],
+form input[type="time"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b2dfdb;
+  border-radius: 4px;
+  background-color: #e0f2f1;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #004d40;
+}
+
+form i {
+  margin-right: 8px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  form label,
+  form input,
+  form select,
+  form textarea,
+  form button {
+    font-size: 14px;
+  }
+}

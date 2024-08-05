@@ -1,0 +1,199 @@
+.navigation {
+  background-image: linear-gradient(#93a5cf, #e4efe9);
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.search {
+  width: 200px;
+  border-radius: 20px;
+  margin-left: 35%;
+  margin-bottom: 0.5%;
+  border-color: 1px solid gray;
+  transition: 1s;
+  font-size: 15px;
+}
+.search:hover {
+  width: 400px;
+  transform: translateX(-100px);
+}
+
+.search:active {
+  width: 400px;
+  transform: translateX(-100px);
+  border-color: 1px solid focus;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+::placeholder {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+.searchIcon {
+  margin: 0;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 2%;
+  left: 65%;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+.content {
+  margin: 0;
+  width: 100%;
+  height: 15cm;
+  background-size: cover;
+  background-image: linear-gradient(#403b4a, #e7e9bb);
+  margin-bottom: 0;
+}
+
+.aboutHosp {
+  width: 40%;
+  height: 10cm;
+
+  margin-left: 50px;
+}
+
+.heading {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.docImg {
+  margin-left: 50%;
+  top: -8cm;
+  position: relative;
+  transition: 1s;
+}
+.contentHosp {
+  font-size: 20px;
+  line-height: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.docImg:hover {
+  scale: 1.2;
+}
+
+.appoint {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  width: 25%;
+  height: 10%;
+  border-radius: 10px;
+  border: 1px solid skyblue;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.appoint:hover {
+  background-color: #57c465;
+}
+
+.leadPage {
+  background-image: linear-gradient(to left, #003973, #e5e5be);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 5cm;
+  overflow: hidden;
+}
+.appointment,
+.docC,
+.department,
+.contact {
+  width: 10%;
+  height: 5cm;
+  margin-left: 5px;
+  background-color: rgb(183, 28, 70);
+  transition: 1s;
+}
+
+.ap,
+.docNav,
+.detext,
+.context {
+  padding-top: 80px;
+  padding-left: 8px;
+  color: white;
+}
+
+.apimg,
+.docImg1,
+.departImg,
+.contImg {
+  width: 50px;
+  position: relative;
+  left: 2%;
+  top: 40%;
+}
+
+.docC {
+  background-color: rgb(31, 185, 203);
+}
+
+.docNav {
+  font-weight: bolder;
+  padding-top: 60%;
+}
+
+.department {
+  background-color: rgb(141, 70, 197);
+}
+
+.departImg {
+  width: 100px;
+  top: 20%;
+}
+.detext {
+  padding-top: 40px;
+}
+
+.contImg {
+  top: 35%;
+}
+
+.context {
+  padding-top: 90px;
+}
+
+.contact {
+  background-color: rgb(99, 28, 73);
+}
+
+.appointment:hover,
+.docC:hover,
+.department:hover,
+.contact:hover {
+  font-weight: bolder;
+  scale: 1.2;
+}
+
+.apimg:hover,
+.docImg1:hover,
+.departImg:hover,
+.contImg :hover {
+  scale: 1.1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.context {
+  cursor: pointer;
+}

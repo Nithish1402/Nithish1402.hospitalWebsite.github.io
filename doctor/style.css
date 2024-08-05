@@ -1,0 +1,200 @@
+body {
+  background-image: linear-gradient(#2193b0, #6dd5ed);
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.headerOrtho,
+.headerHeart {
+  text-align: center;
+  position: absolute;
+  height: 30cm;
+  width: 100%;
+  border-radius: 50px;
+  transition: 1s ease-in-out;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+
+.orthoHeaderImg {
+  transition: opacity 0.5s;
+  position: absolute;
+  top: 8cm;
+  left: 12cm;
+}
+
+.ortho,
+.heart {
+  margin-top: 2%;
+  height: 28cm;
+}
+
+.orthoLegend,
+.heartLegend {
+  text-align: center;
+  font-size: 30px;
+}
+
+.orthoDoc1,
+.orthoDoc2 {
+  display: flex;
+}
+
+.back1,
+.back2 {
+  background-image: linear-gradient(#ff512f, #dd2476);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35%;
+  border-radius: 75%;
+  transition: 1s;
+}
+
+.content,
+.contentHeart {
+  font-size: 25px;
+  height: 30cm;
+  transition: 1s;
+}
+
+.ortho1,
+.ortho2 {
+  width: 35%;
+  position: relative;
+  left: 31%;
+  top: 15%;
+  margin-bottom: 2px;
+}
+
+.content1,
+.content2 {
+  position: relative;
+  top: 18%;
+  left: 33%;
+}
+
+.qualification1,
+.qualification2 {
+  font-size: 20px;
+  width: 50%;
+  position: relative;
+  top: 20%;
+  left: 30%;
+}
+
+.back1:hover,
+.back2:hover {
+  border-radius: 15%;
+}
+
+.back2 {
+  position: relative;
+  top: 2cm;
+  left: 8%;
+}
+.doc2 {
+  position: relative;
+  left: 6cm;
+  top: 1cm;
+  transition: 0.5s;
+}
+
+.contentHeart,
+.contentNeuro {
+  position: relative;
+  top: -20cm;
+}
+
+.heartHeaderImg,
+.neuroHeaderImg {
+  position: relative;
+  top: 8cm;
+  left: 12cm;
+  height: 12cm;
+}
+.headerheart {
+  background-image: linear-gradient(#67b26f, #4ca2cd);
+  background-size: cover;
+  position: relative;
+  top: 2cm;
+  height: 30cm;
+  border-radius: 55px;
+}
+
+.contentHeart {
+  position: relative;
+  top: -1cm;
+}
+
+.contentNeuro {
+  top: -1cm;
+}
+
+.content3,
+.content4 {
+  font-size: 25px;
+}
+.qualification3,
+.qualification4 {
+  font-size: 20px;
+}
+
+.content3,
+.content4 {
+  position: relative;
+  top: 2cm;
+  left: 4cm;
+}
+
+.qualification4,
+.qualification3 {
+  position: relative;
+  top: 3cm;
+  left: 1cm;
+}
+
+.qualification3 {
+  left: 2cm;
+}
+
+.headerNeuro {
+  background-image: linear-gradient(#a770ef, #cf8bf3, #fdb99b);
+  position: absolute;
+  width: 100%;
+  height: 32cm;
+  top: 62cm;
+  border-radius: 25px;
+}
+
+.neuroHeaderImg {
+  top: 15cm;
+  left: 7cm;
+}
+
+.Neuro {
+  height: 32cm;
+}
+.logo {
+  width: 10%;
+  height: 10%;
+  margin-left: 45%;
+}
+
+.doc1 {
+  transition: 0.5s;
+}
+
+.doc1:hover,
+.doc2:hover {
+  scale: 1.2;
+}
